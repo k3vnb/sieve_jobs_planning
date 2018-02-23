@@ -60,5 +60,13 @@ Trying to figure out how to lay out a better component tree, it occurred to me t
 
 	Recommended-Breakdown: [‘anchor’, ‘goal’, ‘obstacle’, ‘decision’, ‘result’],
 
-	User-Input_Example: [null, null, null, null, null]
+	User-Input-Example: [null, null, null, null, null]
 }
+
+In this scenario, sometimes the key-pair values will correspond with one another, for example, index [0] of Recommended Breakdown would correspond with index [0] of User-input-example.
+
+Having written out the JSON I also realize that I may need to allow the user to input more than one story, in which case there may need to user-input-example-1, user-input-example-2, etc.
+
+The flashcards can randomly draw from example-questions key.
+
+The pages can all render to some degree based on this sort of object though, to some degree with conditional rendering, for example if the User-Input-Example is void of actual user input then that will have to be controlled for, and if the user does not input items into all fields when filling out the personal stories, I think that can be ok as long as they fill out some of them, the returns will just render accordingly.
