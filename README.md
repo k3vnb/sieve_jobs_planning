@@ -49,8 +49,10 @@ Users will see a page analogous to Tutorial Page 2 with the user's input stories
 ![userinputstories](img/seemystoriespage.jpg?raw=true)
 Users can go to this page to see their previously input stories to review, or edit.
 
+
+###### MASTER OBJECT
 **Preliminary Master JSON**
-Trying to figure out how to lay out a better component tree, it occurred to me that I may want to envision my master object in JSON format, as I will be able to render displays based on such an object.
+Trying to figure out how to lay out a better component tree, it occurred to me that I may want to envision my master object in JSON format, and find re-usable components, as I will be able to render different displays based on such an object.
 
 1: {
 
@@ -70,3 +72,6 @@ Having written out the JSON I also realize that I may need to allow the user to 
 The flashcards can randomly draw from example-questions key.
 
 The pages can all render to some degree based on this sort of object though, to some degree with conditional rendering, for example if the User-Input-Example is void of actual user input then that will have to be controlled for, and if the user does not input items into all fields when filling out the personal stories, I think that can be ok as long as they fill out some of them, the returns will just render accordingly.
+
+Based on this planning, I made a new component tree:
+![updatedComponentTree](img/sieve-jobs-component-tree.png?raw=true)
