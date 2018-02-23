@@ -48,3 +48,17 @@ Users will see a page analogous to Tutorial Page 2 with the user's input stories
 **See My Stories 2- Answers**
 ![userinputstories](img/seemystoriespage.jpg?raw=true)
 Users can go to this page to see their previously input stories to review, or edit.
+
+**Preliminary Master JSON**
+Trying to figure out how to lay out a better component tree, it occurred to me that I may want to envision my master object in JSON format, as I will be able to render displays based on such an object.
+
+1: {
+
+	Meta-Topic:  ‘Your Experience History’,
+
+	Example-Questions: [‘Tell Me About Yourself…’, ‘Tell me about your work history’, ‘What career accomplishments are you most proud of?’, ‘What’s the biggest mistake you made in your career and what did you do to learn from it?’],
+
+	Recommended-Breakdown: [‘anchor’, ‘goal’, ‘obstacle’, ‘decision’, ‘result’],
+
+	User-Input_Example: [null, null, null, null, null]
+}
