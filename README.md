@@ -75,3 +75,6 @@ The pages can all render to some degree based on this sort of object though, to 
 
 Based on this planning, I made a new component tree:
 ![updatedComponentTree](img/sieve-jobs-component-tree.png?raw=true)
+
+And this following component tree incorporates considerations about where state will reside:
+![updatedComponentTreeWithState](img/component_tree_state.png?raw=true)
