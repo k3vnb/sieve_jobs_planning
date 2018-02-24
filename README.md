@@ -78,3 +78,7 @@ Based on this planning, I made a new component tree:
 
 And this following component tree incorporates considerations about where state will reside:
 ![updatedComponentTreeWithState](img/component_tree_state.png?raw=true)
+
+
+I have begun initializing a repository for building out a static version of the site, it can be found at:
+https://github.com/lemurriot/job_prep.git
