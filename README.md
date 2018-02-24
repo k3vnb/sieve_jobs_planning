@@ -22,7 +22,7 @@ After re-reading 'Thinking in React' and puzzling over how best to break down my
 
 I believe there will need to be lots of revisions, especially to the component tree, at this time I realize the further away I get from the top of the component tree, the more abstract the concept feels, and I think I need to start plugging away at some of the higher components to get a better feel for how the information will start flowing.
 
-###### Mock Ups
+### Mock Ups
 I used Google Slides to make some  very basic mock-ups of the pages to help facilitate the understanding of a better component tree
 
 **Landing Page**
